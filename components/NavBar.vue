@@ -3,7 +3,7 @@
         <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 
-                <p class="is-size-5 is-size-5-mobile">EXPRESS</p>
+                <p class="is-size-5 is-size-5-mobile logo">EXPRESS</p>
               
 
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -38,5 +38,7 @@ export default {
 </script>
 
 <style scoped>
-
+.logo {
+    padding: 15px;font-weight: 700;
+}
 </style>

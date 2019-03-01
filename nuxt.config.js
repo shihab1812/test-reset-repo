@@ -2,7 +2,7 @@ const pkg = require('./package')
 
 
 module.exports = {
-  mode: 'universal',
+  mode: 'spa',
   server: {
     port: 8004, // default: 3000
     host: '0.0.0.0', // default: localhost
@@ -50,7 +50,15 @@ module.exports = {
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
     '@nuxtjs/pwa',
+    'nuxt-purgecss'
   ],
+
+  purgeCSS: {
+    // your settings here
+    // white list --  whitelist: () => ['only-this-class']
+    mode : 'postcss'
+   },
+
   /*
   ** Axios module configuration
   */
@@ -73,7 +81,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }

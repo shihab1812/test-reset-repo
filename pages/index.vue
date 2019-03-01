@@ -6,7 +6,6 @@
          <merchant-basic-info-card :data-accept-input="merchantInfo">
          </merchant-basic-info-card>
       </div>
-     
     </div>
   </div>
 </template>
@@ -17,6 +16,9 @@ import MerchantBasicInfoCard from '../components/MerchantBasicInfoCard';
 export default {
   components: {
     MerchantBasicInfoCard
+  },
+  created() {
+ // call the axios
   },
   data() {
     return{
