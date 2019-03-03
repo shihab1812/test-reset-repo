@@ -2,7 +2,7 @@ const pkg = require('./package')
 
 
 module.exports = {
-  mode: 'spa',
+  mode: 'universal',
   server: {
     port: 8004, // default: 3000
     host: '0.0.0.0', // default: localhost
@@ -59,6 +59,11 @@ module.exports = {
     mode : 'postcss'
    },
 
+   manifest: {
+    name: 'The Express Prototype',
+    short_name: "express",
+    lang: 'fa'
+  },
   /*
   ** Axios module configuration
   */
