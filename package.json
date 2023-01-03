@@ -16,7 +16,7 @@
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/pwa": "^2.6.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "nuxt": "^2.15.8",
     "nuxt-purgecss": "^0.2.1",
     "vue-content-loading": "^1.5.3",
     "vue-i18n": "^8.8.2",
@@ -27,7 +27,7 @@
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
-    "jest": "^23.6.0",
-    "vue-jest": "^3.0.2"
+    "jest": "^29.3.1",
+    "vue-jest": "^4.0.1"
   }
 }
